@@ -12,7 +12,7 @@ app.on('ready', () => {
     },
   });
 
-  mainWindow.loadFile(path.join(__dirname, 'dist/dm-tool/browser/index.html'));
+  mainWindow.loadFile(path.join(__dirname, 'dist/browser/index.html'));
 });
 
 app.on('window-all-closed', () => {
