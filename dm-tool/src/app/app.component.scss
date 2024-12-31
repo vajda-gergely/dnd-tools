@@ -1,0 +1,19 @@
+.top-menu-container {
+    display: block;
+}
+
+.main-container {
+    display: flex;
+
+
+    .left-menu-container {
+        flex: 0 0 20%;
+    }
+
+    .content-container {
+        flex: 1 0 auto;
+        border-radius: 0px;
+        border-width: 2px;
+        border-style: solid;
+    }
+}

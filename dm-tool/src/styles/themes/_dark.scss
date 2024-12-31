@@ -1,0 +1,9 @@
+@import '../general/variables.scss';
+@import '../mixins/theme-palette.scss';
+
+@mixin dark-theme() {
+    $theme: "dark";
+
+    @include theme-palette(lightgrey, rgb(31, 29, 29), darkslategray);
+}
+
