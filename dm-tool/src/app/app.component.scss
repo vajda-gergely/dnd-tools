@@ -1,17 +1,19 @@
 .top-menu-container {
     display: block;
+    padding: 1rem;
 }
 
 .main-container {
     display: flex;
 
-
     .left-menu-container {
-        flex: 0 0 20%;
+        flex: 0 0 10%;
+        padding: 1rem;
     }
 
     .content-container {
         flex: 1 0 auto;
+        padding: 1rem;
         border-radius: 0px;
         border-width: 2px;
         border-style: solid;
